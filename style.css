@@ -53,10 +53,11 @@ li{
   color: black;
 }
 .nav-container .nav .active{
-  background: #333;
+  background:rgb(203, 118, 6);
   color: white;
-  padding: 10px 30px;
   border-radius: 30px;
+  padding:3px;
+
 }
 .header{
   width: 80%;
@@ -84,18 +85,18 @@ li{
   color: white;
   border-radius: 10px;
 }
-.headphone{
+/* .headphone{
   position: absolute;
   top: -10%;
   left: 5%;
   opacity: .2;
   z-index: -1;
 
-}
+} */
 
 
 
-.main-container div h4{
+/* .main-container div h4{
   color: rgb(51, 84, 130);
   font-size: 25px;
   margin: 10px 0;
@@ -103,7 +104,7 @@ li{
 .main-container div li {
   cursor: pointer;
   margin: 3px 0;
-}
+} */
  
 
  
@@ -111,7 +112,7 @@ li{
  
 .all-products{
   position: relative;
-  margin-top:70px ;
+  margin-top:40px ;
   margin-right: 20px;
   margin-bottom: 100px;
   align-items: center;
@@ -127,26 +128,26 @@ display: grid;
 .product-info{
   padding: 15px;
 }
-.gallery{
-  margin-top: 100px;
+.gallery  {
+  margin-top: 20px;
   text-align: center;
 }
 
 
 .product {
-   overflow: hidden;
+   /* overflow: hidden; */
    background: rgba(203, 122, 7, 0.258);
    color: #21201e;
    text-align: center;
-   width: 240px;
-   height: 340;
-   display: block;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
+   /* width: 240px; */
+   /* height: 340; */
+   /* display: block; */
+   /* flex-direction: column; */
+   /* align-items: center; */
+   /* justify-content: center; */
    border-radius: 15px;
    padding: 15px;
-margin: 15px;
+   margin: 15px;
   }
   .product img{
     width: 100%;
@@ -240,7 +241,7 @@ img{
 }
 .section-container {
   position: absolute;
-  top: 65%;
+  top: 77%;
   left: 50%;
   width: 90%;
   transform: translate(-50%, -50%);
@@ -266,7 +267,6 @@ img{
   
   border-radius: 7px;
   background: transparent;
-
   margin: 10px 10px;
   cursor: pointer;
   font-weight: 400;
@@ -286,6 +286,7 @@ img{
   
   /* width: 100%; */
   height: 45rem;
+  margin: 20px;
 
 }
  
@@ -305,7 +306,7 @@ img{
   display: flex;
   height: 10vh;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 15px;
   
   
@@ -338,3 +339,16 @@ footerr h4{
   margin-top: 3%;
 }
 
+
+/* read more */
+
+.information p{
+  margin: 6%;
+  color: #662200;
+  font-weight: 700;
+
+}
+.information{
+  margin-top: 30px;
+  text-align: center;
+}
